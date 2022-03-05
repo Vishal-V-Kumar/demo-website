@@ -1,22 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+body{
+  font-family: 'Comic Neue', cursive;
+}
+
+.container{
+  max-width: 85%;
+  margin: auto;
+  font-size: 19px;
+  padding: 15px 15px;
+  margin-top: 30px;
+}
+
+.off-white-sec{
+  background-color: whitesmoke;
+  padding: 2rem 2rem;
+}
+
+section{
+  text-align: left;
+}
+
+.image{
+  max-width: 52%;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+  padding-top: 4.5rem;
+}
+
+.companyname{
+  padding: 2rem;
+  margin: auto;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+  font-weight: bold;
+}
+
 #navbar {
     background-color: #333; 
     position: fixed; 
     top: 0; 
     width: 100%;
     transition: top 0.3s;
+    border: 1px solid #a2a2a2;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
   }
   
 
   #navbar a {
     float: left;
     display: block;
-    color: white;
+    color: #34495e;
     text-align: center;
     padding: 15px;
     text-decoration: none;
+    font-size: .99em;
   }
   
   #navbar a:hover {
     background-color: #ddd;
-    color: black;
+    color: #85099e;
+    border-radius: 25px;
   }
+
+  .main-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav{
+  margin-left: -7px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
