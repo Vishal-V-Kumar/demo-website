@@ -27,6 +27,7 @@ section{
   margin: auto;
   padding: 2rem;
   padding-top: 4.5rem;
+  padding-bottom: 6rem;
 }
 
 .companyname{
@@ -34,6 +35,7 @@ section{
   margin: auto;
   font-size: 3.5rem;
   text-align: center;
+  padding-bottom: 6rem;
 }
 
 .main-nav a {
