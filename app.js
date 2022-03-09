@@ -1,10 +1,11 @@
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
+var show_menu = document.querySelector('.show_menu_btn');
+show_menu.addEventListener('click', function (event) {
+    var target = document.querySelector(show_menu.getAttribute('data-target'));
+    if (target.style.display == "none") {
+        target.style.display = "block";
+        show_menu.innerHTML = show_menu.getAttribute('data-shown-text');
     } else {
-        document.getElementById("navbar").style.top = "-90px";
+        target.style.display = "none";
+        show_menu.innerHTML = show_menu.getAttribute('data-hidden-text');
     }
-    prevScrollpos = currentScrollPos;
-}
+});
