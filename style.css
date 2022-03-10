@@ -38,7 +38,8 @@ section {
   padding-bottom: 6rem;
 }
 
-/* UTILITIES */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +59,6 @@ li {
 }
 
 
-/* NAVBAR STYLING STARTS */
 .navbar {
   display: flex;
   align-items: center;
@@ -72,12 +72,12 @@ li {
   color: #fff;
 }
 
-/* LOGO */
+
 .logo {
   font-size: 32px;
 }
 
-/* NAVBAR MENU */
+
 .menu {
   display: flex;
   gap: 1em;
@@ -94,7 +94,7 @@ li {
   padding: 5px 14px;
 }
 
-/* DROPDOWN MENU */
+
 .services {
   position: relative;
 }
@@ -103,7 +103,7 @@ li {
   background-color: rgb(1, 139, 139);
   padding: 1em 0;
   position: absolute;
-  /*WITH RESPECT TO PARENT*/
+
   display: none;
   border-radius: 8px;
   top: 35px;
@@ -127,19 +127,19 @@ li {
   display: block;
 }
 
-/* CHECKBOX HACK */
+
 input[type=checkbox] {
   display: none;
 }
 
-/*HAMBURGER MENU*/
+
 .hamburger {
   display: none;
   font-size: 24px;
   user-select: none;
 }
 
-/* APPLYING MEDIA QUERIES */
+
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -324,3 +324,6 @@ p {
   width: var(--size);
   height: var(--size);
 }
+
+
+
