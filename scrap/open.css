@@ -76,6 +76,7 @@ h1 span {
 
 
 button {
+    margin: auto;
     align-items: center;
     background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
     border: 0;
@@ -98,6 +99,7 @@ button {
     white-space: nowrap;
     cursor: pointer;
     transition: all .3s;
+
 }
 
 button:active,
@@ -124,6 +126,7 @@ button:active {
 
 
 
+
 .container {
     margin: auto;
     width: 100%;
@@ -137,5 +140,6 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 
 }
