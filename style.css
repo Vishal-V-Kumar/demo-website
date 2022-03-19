@@ -605,10 +605,13 @@ html::-webkit-scrollbar-thumb:active{
 
 /* From cssbuttons.io by @alexmaracinaru */
 .cta {
+  display: block;
   border: none;
   background: none;
-  padding-left: 33rem;
-  margin: 0 auto;
+ /* padding-left: 33rem;*/
+  margin-left: auto;
+  margin-right: auto;
+  
  }
  
  .cta span {
