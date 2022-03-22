@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth
+}
 /*@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap%27');
 
 body {
@@ -664,7 +667,7 @@ html::-webkit-scrollbar-thumb:active{
   display: block;
   justify-content: center;
   text-align: center;
-  background-color: rgb(204, 195, 195);
+  background-color: rgb(0, 0, 0);
   padding-bottom: 5rem;
   height: 0;   /* Height of the footer */
   padding-top: 2rem;
@@ -673,9 +676,141 @@ html::-webkit-scrollbar-thumb:active{
  }
  footer a{
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
   /*letter-spacing: 0.5rem;*/
   padding-left: 1.5rem;
  }
 
+footer a:hover{
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+}
+/*--------------Cards--------------*/
+
+
+.main-container {
+  padding: 30px;
+}
+
+/* HEADING */
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.heading__title {
+  font-weight: 600;
+}
+
+.heading__credits {
+  margin: 10px 0px;
+  color: #888888;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.heading__link {
+  text-decoration: none;
+}
+
+.heading__credits .heading__link {
+  color: inherit;
+}
+
+/* CARDS */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  min-height: 200px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card__link,
+.card__exit,
+.card__icon {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card__link::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.5s;
+}
+
+.card__link:hover::after {
+  width: 100%;
+}
+
+.card__exit {
+  grid-row: 1/2;
+  justify-self: end;
+}
+
+.card__icon {
+  grid-row: 2/3;
+  font-size: 30px;
+}
+
+.card__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card__apply {
+  grid-row: 4/5;
+  align-self: center;
+}
+
+/* CARD BACKGROUNDS */
+
+.card-1 {
+  background: radial-gradient(#28A19E, #444499);
+}
+
+.card-2 {
+  background: radial-gradient(#66a2d3, #5c6ebe);
+}
+
+.card-3 {
+  background: radial-gradient(#76b2fe, #b69efe);
+}
+
+.card-4 {
+  background: radial-gradient(#8734D6, #4b34a3);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1600px) {
+  .cards {
+    justify-content: center;
+  }
+}
+/*----------------------- cards end----------------------*/
