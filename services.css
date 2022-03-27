@@ -1,0 +1,247 @@
+
+.main-container {
+    padding: 30px;
+  }
+  
+  /* HEADING */
+  
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .heading__title {
+    font-weight: 600;
+  }
+  
+  .heading__credits {
+    margin: 10px 0px;
+    color: #888888;
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+  
+  .heading__link {
+    text-decoration: none;
+  }
+  
+  .heading__credits .heading__link {
+    color: inherit;
+  }
+  
+  /* CARDS */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 25px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+  .card__link,
+  .card__exit,
+  .card__icon {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .card__title .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+  }
+  
+  .card__title .card__link:hover::after {
+    width: 100%;
+  }
+  
+  .card__exit {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+  
+  .card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .card__title {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: -40px;
+  }
+  
+  .card__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card-1 {
+    background: radial-gradient(#28A19E, #444499);
+  }
+  
+  .card-2 {
+    background: radial-gradient(#66a2d3, #5c6ebe);
+  }
+  
+  .card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  .card-4 {
+    background: radial-gradient(#8734D6, #4b34a3);
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+  /*----------------------- cards end----------------------*/
+
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    position : relative;
+    width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : warp;
+    padding : 30px; 
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : rgb(255, 255, 255);
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height : 320px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .container .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  /*-------------------footer------------------*/
+  footer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 5rem;
+    height: 0;   /* Height of the footer */
+    padding-top: 2rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 15px;
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+   }
+   footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    /*letter-spacing: 0.5rem;*/
+    padding-left: 1.5rem;
+   }
+  
+  footer a:hover{
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+  }
+/*--------------end footer -----------------------*/
+
+/* Scroll Bar*/
+html::-webkit-scrollbar{
+    background-color: rgb(41, 40, 40);
+    width: 12px;
+  }
+  html::-webkit-scrollbar-track{
+    color: rgb(0, 0, 0);
+  }
+  
+  html::-webkit-scrollbar-thumb{
+    background: #111;
+    border-radius: 50px;
+  }
+  
+  html::-webkit-scrollbar-thumb:hover{
+    background: rgb(104, 99, 99);
+  }
+  
+  html::-webkit-scrollbar-thumb:active{
+    background: rgb(104, 99, 99);
+    border-radius: 20px;
+  }
+  /* scroll end
