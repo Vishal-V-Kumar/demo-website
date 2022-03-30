@@ -1,4 +1,6 @@
 
+
+
 .main-container {
     padding: 30px;
   }
@@ -259,13 +261,12 @@
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
-    /*letter-spacing: 0.5rem;*/
     padding-left: 1.5rem;
    }
   
   footer a:hover{
     font-weight: bold;
-    letter-spacing: 0.25rem;
+    /* letter-spacing: 0.15rem; */
   }
 /*--------------end footer -----------------------*/
 
