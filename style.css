@@ -219,11 +219,10 @@ html {
 
 @media only screen and (max-width: 750px){
   #About-me p{
-    padding: 0 -2rem;
-    margin: 0 -10rem;
-
+    margin: auto -10rem;
   }
 }
+
 
 
 /* Scroll Bar*/
