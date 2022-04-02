@@ -1,5 +1,13 @@
+html {
+  scroll-behavior: smooth
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+body{
+  
+  font-family: 'Playfair Display', serif;
+}
 
 .main-container {
     padding: 30px;
