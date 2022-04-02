@@ -217,6 +217,13 @@ html {
   margin-right: auto;
 }
 
+@media only screen and (max-width: 750px){
+  #About-me p{
+    padding: 0 -2rem;
+    margin: 0 -10rem;
+
+  }
+}
 
 
 /* Scroll Bar*/
