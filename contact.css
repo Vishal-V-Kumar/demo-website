@@ -20,11 +20,12 @@
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
-.button span {
+.button span a{
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 60px;
 	margin-left: 10px;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -55,27 +56,27 @@
 	background: rgb(69, 161, 92);
 }
 
-.button:nth-child(1) span {
+.button:nth-child(1) span a{
 	color: #e1306c;
 }
 
-.button:nth-child(2) span {
+.button:nth-child(2) span a{
 	color: #4267b2;
 }
 
-.button:nth-child(3) span {
+.button:nth-child(3) span a{
 	color: #1da1f2;
 }
 
-.button:nth-child(4) span {
+.button:nth-child(4) span a{
 	color: #0e76a8;
 }
 
-.button:nth-child(5) span {
+.button:nth-child(5) span a{
 	color: #ff0000;
 }
 
-.button:nth-child(6) span {
+.button:nth-child(6) span a{
 	color: rgb(69, 161, 92);
 }
 
@@ -92,10 +93,13 @@
 	font-size: 25px;
 	line-height: 60px;
 	transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: #333;
 }
 
 .button:hover a {
 	color: #fff;
+    text-decoration: none;
 }
 
 /************************************************************/
