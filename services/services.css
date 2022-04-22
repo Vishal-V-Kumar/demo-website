@@ -134,7 +134,7 @@ img{
   }
   
   .card-4 {
-    background: radial-gradient(#8734D6, #4b34a3);
+    background: radial-gradient(#9c55de, #6a4fd4);
   }
   
   /* RESPONSIVE */
@@ -262,27 +262,30 @@ img{
     color: #343536;
   }
   /*-------------------footer------------------*/
-  footer{
+  footer {
     display: block;
     justify-content: center;
     text-align: center;
     background-color: rgb(0, 0, 0);
     padding-bottom: 5rem;
-    height: 0;   /* Height of the footer */
+    height: 0;
+    /* Height of the footer */
     padding-top: 2rem;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: -2rem;
     margin-left: -2rem;
-   }
-   footer a{
+    width: 100%;
+  }
+  
+  footer a {
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
     padding-left: 1.5rem;
-   }
+  }
   
-  footer a:hover{
+  footer a:hover {
     font-weight: bold;
     /* letter-spacing: 0.15rem; */
   }
