@@ -24,6 +24,13 @@ html {
 .html{
     font-size: 62.5%;
 }
+section #aboutmelink{
+  color: #000;
+}
+
+section #aboutmelink:hover{
+color:rgb(86, 86, 89);
+}
 
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines{
@@ -213,7 +220,7 @@ html {
   font-size: 22px;
 }
 #About-me p{
-  padding: 2rem 12rem;
+  padding: 1rem 12rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
