@@ -4,7 +4,9 @@ html {
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-
+.myH2{
+  text-align: center;
+}
 
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
