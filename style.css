@@ -202,14 +202,29 @@ color:rgb(86, 86, 89);
 }
 /*Banner*/
 #banner {
-  width: 100%;
-  margin: auto;
-  display: block;
-  padding-top: 2rem;
-  padding-bottom: 0;
-
-
+  width: 40%;
+  padding-right: 2rem;
+  float:right;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
+
+@media only screen and (min-width:1024px){
+#AfterBannerP{
+padding-top: 10rem;
+}
+
+#BannerP{
+  padding-top: 5rem;
+  padding-right: 8rem;
+  margin-left: -7rem;
+}
+}
+/*
+#BannerP{
+  padding-top: 5rem;
+  padding-right: 8rem;
+}*/
 
 /*About me*/
 #About-me {
@@ -327,9 +342,9 @@ footer {
   padding-bottom: 5rem;
   height: 0;
   /* Height of the footer */
-  padding-top: 2rem;
+  padding-top: 2rem;/*
   border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-right-radius: 15px;*/
   margin-bottom: -2rem;
   margin-left: -2rem;
 }
