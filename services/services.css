@@ -24,12 +24,12 @@ body{
       margin: auto;
     }
     .main-container .heading__credits{
-      margin-left: -4rem;
-      margin-right: -4rem;
+      margin:0 -4rem;
     }
     body{
       overflow-x: hidden;
     }
+    
   }
 /*banner*/
 
