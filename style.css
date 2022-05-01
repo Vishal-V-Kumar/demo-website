@@ -209,7 +209,7 @@ color:rgb(86, 86, 89);
   padding-bottom: 2rem;
 }
 
-@media only screen and (min-width:860px) and (max-width:1024px){
+@media only screen and (min-width:1024px){
 #AfterBannerP p{
 padding-top: 10rem;
 }
@@ -249,10 +249,8 @@ padding-top: 10rem;
   }
   .myP{
     padding-bottom: 1rem;
-    margin: auto;
   }
   .myH2{
-    margin: auto;
     padding-bottom: 0.5rem;
   }
 }
