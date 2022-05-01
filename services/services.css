@@ -14,6 +14,12 @@ body{
   margin-right: auto;
   }
 
+  @media only screen and (max-width:768px){
+    .main-container{
+      margin: -2rem;
+    }
+
+  }
 /*banner*/
 
 
