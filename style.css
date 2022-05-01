@@ -220,6 +220,7 @@ color:rgb(86, 86, 89);
   margin-left: -7rem;
   padding-bottom: 10rem;
 }
+
 }
 /*
 #BannerP{
@@ -246,7 +247,11 @@ color:rgb(86, 86, 89);
   body{
     overflow-x:hidden ;
   }
-  #About-me p{
+  #BannerP{
+    padding: 2rem 0;
+  }
+
+  #About-me #AfterBannerP p{
     padding: 0 2rem;
     margin-right: -1rem;
   }
@@ -256,8 +261,8 @@ color:rgb(86, 86, 89);
   .myH2{
     padding-bottom: 0.5rem;
   }
-  #cta{
-    margin-top: -5rem;
+  .cta{
+    margin-top: -10rem;
   }
 }
 
