@@ -209,8 +209,8 @@ color:rgb(86, 86, 89);
   padding-bottom: 2rem;
 }
 
-@media only screen and (min-width:860px) and (max-width:1024px){
-#AfterBannerP p{
+@media only screen and (min-width:860px){
+#AfterBannerP{
 padding-top: 10rem;
 }
 
@@ -218,7 +218,6 @@ padding-top: 10rem;
   padding-top: 5rem;
   padding-right: 8rem;
   margin-left: -7rem;
-  padding-bottom: 10rem;
 }
 }
 /*
@@ -356,7 +355,6 @@ footer {
   border-top-right-radius: 15px;*/
   margin-bottom: -2rem;
   margin-left: -2rem;
-  bottom: 0;
 }
 
 footer a {
