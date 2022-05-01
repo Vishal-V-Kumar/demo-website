@@ -243,15 +243,21 @@ padding-top: 10rem;
 }
 
 @media only screen and (max-width: 768px){
+  body{
+    overflow-x:hidden ;
+  }
   #About-me p{
     padding: 0 2rem;
-    
+    margin-right: -1rem;
   }
   .myP{
     padding-bottom: 1rem;
   }
   .myH2{
     padding-bottom: 0.5rem;
+  }
+  #cta{
+    margin-top: -5rem;
   }
 }
 

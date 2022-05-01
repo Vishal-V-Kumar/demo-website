@@ -14,11 +14,22 @@ body{
   margin-right: auto;
   }
 
-  @media only screen and (max-width:768px){
-    .main-container{
-      margin: -2rem;
+  @media only screen and (max-width: 768px){
+    .heading__credits p{
+      font-size: 1px;
+      margin: 0 -9rem;
+      padding: 0 0;
     }
-
+    .heading{
+      margin: auto;
+    }
+    .main-container .heading__credits{
+      margin-left: -4rem;
+      margin-right: -4rem;
+    }
+    body{
+      overflow-x: hidden;
+    }
   }
 /*banner*/
 
