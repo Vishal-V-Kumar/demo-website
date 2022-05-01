@@ -209,17 +209,10 @@ color:rgb(86, 86, 89);
   padding-bottom: 2rem;
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (max-width:1024px){
   body{
     overflow-x: hidden;
   }
-#AfterBannerP p{
-padding-top: 10rem;
-}
-.cta{
-  float: left;
-  margin-top: -5rem;
-}
 
 #BannerP{
   padding-top: 5rem;
